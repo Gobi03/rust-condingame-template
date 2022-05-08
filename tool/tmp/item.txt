@@ -1,0 +1,4 @@
+choppingboard
+oven
+dishwasher
+window

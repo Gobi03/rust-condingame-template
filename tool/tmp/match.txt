@@ -1,0 +1,3 @@
+  | ChoppedDough => "CHOPPED_DOUGH"
+  | RawTart => "RAW_TART"
+  | Tart => "TART"
