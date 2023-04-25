@@ -12,9 +12,6 @@ use entity::*;
 use extvec::*;
 
 fn main() {
-    let (r, w) = (std::io::stdin(), std::io::stdout());
-    let mut sc = IO::new(r.lock(), w.lock());
-
     let mut _rng = thread_rng();
 
     let system_time = SystemTime::now();
