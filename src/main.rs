@@ -10,22 +10,23 @@ use std::time::SystemTime;
 
 use common::*;
 use entity::*;
-use extvec::*;
 use reader::*;
 
 fn main() {
     let mut _rng = thread_rng();
 
-    let system_time = SystemTime::now();
+    loop {
+        let system_time = SystemTime::now();
 
-    let _ = Hoge::Fuga;
+        let _ = Hoge::Fuga;
 
-    // input sample
-    let input_line = get_input_line();
-    let inputs = input_line.split(" ").collect::<Vec<_>>();
-    let (w, h) = readWH(inputs);
+        // input sample
+        let input_line = get_input_line();
+        let inputs = input_line.split(" ").collect::<Vec<_>>();
+        let (w, h) = readWH(inputs);
 
-    eprintln!("{}ms", system_time.elapsed().unwrap().as_millis());
+        eprintln!("{}ms", system_time.elapsed().unwrap().as_millis());
+    }
 }
 
 // eprintln!("");
