@@ -1,2 +1,5 @@
 /target
 /src/submit.rs
+
+flamegraph.svg
+perf.data*
