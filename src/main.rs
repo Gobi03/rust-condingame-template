@@ -5,6 +5,8 @@ mod extvec;
 mod reader;
 
 #[allow(unused_imports)]
+use rand::prelude::SliceRandom;
+#[allow(unused_imports)]
 use rand::{thread_rng, Rng};
 use std::time::SystemTime;
 

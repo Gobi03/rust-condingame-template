@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 
 # match式の本体部分のアローの左辺と右辺を入れ替える
 

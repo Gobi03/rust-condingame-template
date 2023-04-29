@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 
 # コンストラクタを引数として渡す
 # e.g. "Red | Blue | Green"

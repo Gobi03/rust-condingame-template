@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 
 # ローカルrunnerのログから入力を抽出する
 # ファイルバスを引数として渡す

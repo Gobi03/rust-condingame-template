@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 
 # ファイル名を引数として渡し、その中身から直和型を作る
 # 命名は先頭大文字
