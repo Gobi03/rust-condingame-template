@@ -47,6 +47,7 @@ RUN cargo install flamegraph \
 COPY ../src app/src
 COPY ../Cargo.toml app/Cargo.toml
 COPY ../Cargo.lock app/Cargo.lock
+COPY ../profiler/out/output.txt app/out/output.txt
 
 RUN cd app \
     && cargo build --release \

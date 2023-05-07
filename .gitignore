@@ -2,4 +2,5 @@
 /src/submit.rs
 
 flamegraph.svg
+flamegraph.old.svg
 perf.data*
