@@ -18,8 +18,6 @@ fn main() {
     let mut _rng = thread_rng();
 
     loop {
-        let system_time = SystemTime::now();
-
         let _ = Hoge::Fuga;
 
         // input sample
@@ -27,8 +25,9 @@ fn main() {
         let inputs = input_line.split(" ").collect::<Vec<_>>();
         let (w, h) = readWH(inputs);
 
+        // 最初の入力が終わったタイミングで付けないと、前ターンの終了待ち時間まで含まれてしまう
+        let system_time = SystemTime::now();
+
         eprintln!("{}ms", system_time.elapsed().unwrap().as_millis());
     }
 }
-
-// eprintln!("");

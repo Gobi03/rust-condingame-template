@@ -1,3 +1,5 @@
+use crate::common::*;
+
 // Reader
 #[macro_export]
 macro_rules! parse_input {
@@ -7,9 +9,7 @@ macro_rules! parse_input {
 }
 
 // sample
-pub fn readWH(inputs: Vec<&str>) -> (usize, usize) {
-    let width = parse_input!(inputs[0], usize);
-    let height = parse_input!(inputs[1], usize);
-
-    (width, height)
+pub fn readUsize() -> usize {
+    let input_line = get_input_line();
+    parse_input!(input_line, usize)
 }
