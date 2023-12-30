@@ -1,8 +1,8 @@
 [package]
-name = "CodinGame-AI"
+name = "codin-game-ai"
 version = "0.1.0"
 authors = ["Tatsuya Katsushima"]
-edition = "2018"
+edition = "2021"
 
 [dependencies]
 chrono = "0.4.26"
