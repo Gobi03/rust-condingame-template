@@ -1,5 +1,5 @@
 [package]
-name = "codin-game-ai"
+name = "codingame-ai"
 version = "0.1.0"
 authors = ["Tatsuya Katsushima"]
 edition = "2021"

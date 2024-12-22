@@ -21,9 +21,7 @@ fn main() {
         let _ = Hoge::Fuga;
 
         // input sample
-        let input_line = get_input_line();
-        let inputs = input_line.split(" ").collect::<Vec<_>>();
-        let (w, h) = readWH(inputs);
+        let n = readUsize();
 
         // 最初の入力が終わったタイミングで付けないと、前ターンの終了待ち時間まで含まれてしまう
         let system_time = SystemTime::now();
